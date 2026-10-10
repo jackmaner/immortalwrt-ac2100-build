@@ -53,6 +53,5 @@ jobs:
         with:
           name: immortalwrt-ac2100
           path: |
-            openwrt/bin/targets/ramips/mt7621/*sysupgrade.bin
-            openwrt/bin/targets/ramips/mt7621/*factory.bin
+            openwrt/bin/targets/ramips/mt7621/*.bin
           if-no-files-found: error
